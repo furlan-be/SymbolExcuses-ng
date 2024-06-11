@@ -1,0 +1,15 @@
+<div class="excuse-container">
+  @if (excuse()) {
+    <p>
+      Message : {{ excuse()?.message }}
+    </p>
+    <p>
+      Http Code : {{ excuse()?.httpCode}}
+    </p>
+  }
+  @else {
+    <p>
+      No excuse found
+    </p>
+  }
+</div>

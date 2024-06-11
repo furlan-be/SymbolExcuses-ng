@@ -1,0 +1,7 @@
+@if (loading()) {
+  <button mat-flat-button color="primary" disabled>
+    <mat-spinner diameter="20"></mat-spinner>
+  </button>
+} @else {
+  <button mat-flat-button color="primary" (click)="generateNewExcuse()">Générer une nouvelle excuse</button>
+}

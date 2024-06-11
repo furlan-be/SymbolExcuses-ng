@@ -1,0 +1,36 @@
+.home-container {
+  padding: 16px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  h1 {
+    font-size: 17px;
+    margin: unset;
+    line-height: unset;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  p {
+    font-size: 14px;
+    margin: unset;
+  }
+
+  app-button {
+    animation: buttonMove 2s ease-in-out forwards;
+  }
+
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform:  translateY(0); }
+}
+
+@keyframes buttonMove {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
