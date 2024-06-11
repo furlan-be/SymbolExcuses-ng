@@ -1,17 +1,14 @@
 # SymbolExcusesNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
-
-
 Node version : 20.13.1
 
 ## Installation
 
-Run `npm install` to install the dependencies.
+Exécuter `npm install` pour installer les dépendances du projet.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Exécuter `ng serve` pour lancer le serveur de développement. Naviguer sur `http://localhost:4200/`. L'application se rechargera automatiquement si vous modifiez un fichier source.
 
 ## Informations complémentaires
 
@@ -26,5 +23,6 @@ Il n'y a pas de démo en ligne pour l'app Angular.
 - Page lost : [http://localhost:4200/lost](http://localhost:4200/lost) (ou toute autre URL non définie dans l'app Angular)
 
 Bonus Réalisés :
+
 - Illusion de labeur
 - Animations 
